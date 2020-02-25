@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		247D17F82404E7DA00B7E65E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 247D17F72404E7DA00B7E65E /* AppDelegate.m */; };
+		247D17FE2404E7DA00B7E65E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 247D17FD2404E7DA00B7E65E /* ViewController.m */; };
+		247D18032404E7E000B7E65E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 247D18022404E7E000B7E65E /* Assets.xcassets */; };
+		247D18062404E7E000B7E65E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247D18042404E7E000B7E65E /* LaunchScreen.storyboard */; };
+		247D18092404E7E000B7E65E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 247D18082404E7E000B7E65E /* main.m */; };
+		247D18132404F7ED00B7E65E /* DigitalDismay.otf in Resources */ = {isa = PBXBuildFile; fileRef = 247D18112404F7ED00B7E65E /* DigitalDismay.otf */; };
+		247D18142404F7ED00B7E65E /* DS-Digital.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 247D18122404F7ED00B7E65E /* DS-Digital.ttf */; };
+		A77772325117CEA4AE488053 /* Pods_TinyClock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FE0B3D988F00E45F08475E9 /* Pods_TinyClock.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FE0B3D988F00E45F08475E9 /* Pods_TinyClock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinyClock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		247D17F32404E7DA00B7E65E /* TinyClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		247D17F62404E7DA00B7E65E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		247D17F72404E7DA00B7E65E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		247D17FC2404E7DA00B7E65E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		247D17FD2404E7DA00B7E65E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		247D18022404E7E000B7E65E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		247D18052404E7E000B7E65E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		247D18072404E7E000B7E65E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		247D18082404E7E000B7E65E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		247D18112404F7ED00B7E65E /* DigitalDismay.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DigitalDismay.otf; sourceTree = "<group>"; };
+		247D18122404F7ED00B7E65E /* DS-Digital.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-Digital.ttf"; sourceTree = "<group>"; };
+		92DB758E0059EBB5C0F91063 /* Pods-TinyClock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinyClock.release.xcconfig"; path = "Target Support Files/Pods-TinyClock/Pods-TinyClock.release.xcconfig"; sourceTree = "<group>"; };
+		B10AEBF59FD98DF3541D6946 /* Pods-TinyClock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinyClock.debug.xcconfig"; path = "Target Support Files/Pods-TinyClock/Pods-TinyClock.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		247D17F02404E7DA00B7E65E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77772325117CEA4AE488053 /* Pods_TinyClock.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		247D17EA2404E7DA00B7E65E = {
+			isa = PBXGroup;
+			children = (
+				247D17F52404E7DA00B7E65E /* TinyClock */,
+				247D17F42404E7DA00B7E65E /* Products */,
+				B13A7FD939794EEA73E6E417 /* Pods */,
+				4831C0A15719F02160D4FE9E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		247D17F42404E7DA00B7E65E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				247D17F32404E7DA00B7E65E /* TinyClock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		247D17F52404E7DA00B7E65E /* TinyClock */ = {
+			isa = PBXGroup;
+			children = (
+				247D17F62404E7DA00B7E65E /* AppDelegate.h */,
+				247D17F72404E7DA00B7E65E /* AppDelegate.m */,
+				247D180F2404EE8000B7E65E /* feature */,
+				247D18152404F81400B7E65E /* common */,
+				247D18102404EE8000B7E65E /* resources */,
+			);
+			path = TinyClock;
+			sourceTree = "<group>";
+		};
+		247D180F2404EE8000B7E65E /* feature */ = {
+			isa = PBXGroup;
+			children = (
+				247D17FC2404E7DA00B7E65E /* ViewController.h */,
+				247D17FD2404E7DA00B7E65E /* ViewController.m */,
+			);
+			path = feature;
+			sourceTree = "<group>";
+		};
+		247D18102404EE8000B7E65E /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				247D18112404F7ED00B7E65E /* DigitalDismay.otf */,
+				247D18122404F7ED00B7E65E /* DS-Digital.ttf */,
+				247D18022404E7E000B7E65E /* Assets.xcassets */,
+				247D18042404E7E000B7E65E /* LaunchScreen.storyboard */,
+				247D18072404E7E000B7E65E /* Info.plist */,
+				247D18082404E7E000B7E65E /* main.m */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		247D18152404F81400B7E65E /* common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		4831C0A15719F02160D4FE9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FE0B3D988F00E45F08475E9 /* Pods_TinyClock.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B13A7FD939794EEA73E6E417 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B10AEBF59FD98DF3541D6946 /* Pods-TinyClock.debug.xcconfig */,
+				92DB758E0059EBB5C0F91063 /* Pods-TinyClock.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		247D17F22404E7DA00B7E65E /* TinyClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 247D180C2404E7E000B7E65E /* Build configuration list for PBXNativeTarget "TinyClock" */;
+			buildPhases = (
+				B0A792AE85471D055805DD33 /* [CP] Check Pods Manifest.lock */,
+				247D17EF2404E7DA00B7E65E /* Sources */,
+				247D17F02404E7DA00B7E65E /* Frameworks */,
+				247D17F12404E7DA00B7E65E /* Resources */,
+				0D2B42AA73493754B98F7C9E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinyClock;
+			productName = TinyClock;
+			productReference = 247D17F32404E7DA00B7E65E /* TinyClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		247D17EB2404E7DA00B7E65E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "龚伟强";
+				TargetAttributes = {
+					247D17F22404E7DA00B7E65E = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 247D17EE2404E7DA00B7E65E /* Build configuration list for PBXProject "TinyClock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 247D17EA2404E7DA00B7E65E;
+			productRefGroup = 247D17F42404E7DA00B7E65E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				247D17F22404E7DA00B7E65E /* TinyClock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		247D17F12404E7DA00B7E65E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247D18142404F7ED00B7E65E /* DS-Digital.ttf in Resources */,
+				247D18132404F7ED00B7E65E /* DigitalDismay.otf in Resources */,
+				247D18062404E7E000B7E65E /* LaunchScreen.storyboard in Resources */,
+				247D18032404E7E000B7E65E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D2B42AA73493754B98F7C9E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TinyClock/Pods-TinyClock-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TinyClock/Pods-TinyClock-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TinyClock/Pods-TinyClock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0A792AE85471D055805DD33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TinyClock-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		247D17EF2404E7DA00B7E65E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247D17FE2404E7DA00B7E65E /* ViewController.m in Sources */,
+				247D17F82404E7DA00B7E65E /* AppDelegate.m in Sources */,
+				247D18092404E7E000B7E65E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		247D18042404E7E000B7E65E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				247D18052404E7E000B7E65E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		247D180A2404E7E000B7E65E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		247D180B2404E7E000B7E65E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		247D180D2404E7E000B7E65E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B10AEBF59FD98DF3541D6946 /* Pods-TinyClock.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TinyClock/resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gwq.TinyClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		247D180E2404E7E000B7E65E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92DB758E0059EBB5C0F91063 /* Pods-TinyClock.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TinyClock/resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gwq.TinyClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		247D17EE2404E7DA00B7E65E /* Build configuration list for PBXProject "TinyClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				247D180A2404E7E000B7E65E /* Debug */,
+				247D180B2404E7E000B7E65E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		247D180C2404E7E000B7E65E /* Build configuration list for PBXNativeTarget "TinyClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				247D180D2404E7E000B7E65E /* Debug */,
+				247D180E2404E7E000B7E65E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 247D17EB2404E7DA00B7E65E /* Project object */;
+}
