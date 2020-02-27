@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "HomeViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -20,10 +20,10 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     
-    ViewController *vc = [ViewController new];
+    HomeViewController *vc = [HomeViewController new];
     self.window.rootViewController = vc;
 
-    [[UIApplication sharedApplication] setStatusBarHidden:NO];
+//    [[UIApplication sharedApplication] setStatusBarHidden:NO];
     [self.window makeKeyAndVisible];
 
     return YES;

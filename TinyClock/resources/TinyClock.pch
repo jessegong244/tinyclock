@@ -1,0 +1,18 @@
+//
+//  TinyClock.pch
+//  TinyClock
+//
+//  Created by 龚伟强 on 2020/2/27.
+//  Copyright © 2020 龚伟强. All rights reserved.
+//
+
+#ifndef TinyClock_pch
+#define TinyClock_pch
+
+#import "Macros.h"
+#import <SjbLib/UIView+Frame.h>
+#import <YYKit.h>
+#import "GwqUI.h"
+#import <Masonry.h>
+
+#endif /* TinyClock_pch */

@@ -8,6 +8,7 @@ target 'TinyClock' do
 
   # Pods for TinyClock
   ##################################################
+  pod 'SVProgressHUD', '~> 2.2.5'
   pod 'Masonry','~> 1.1.0'
   pod 'AFNetworking','~> 3.2.1'
   pod 'YYKit','~> 1.0.9'

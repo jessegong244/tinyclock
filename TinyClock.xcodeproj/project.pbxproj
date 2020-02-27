@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		247D17F82404E7DA00B7E65E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 247D17F72404E7DA00B7E65E /* AppDelegate.m */; };
-		247D17FE2404E7DA00B7E65E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 247D17FD2404E7DA00B7E65E /* ViewController.m */; };
 		247D18032404E7E000B7E65E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 247D18022404E7E000B7E65E /* Assets.xcassets */; };
 		247D18062404E7E000B7E65E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247D18042404E7E000B7E65E /* LaunchScreen.storyboard */; };
 		247D18092404E7E000B7E65E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 247D18082404E7E000B7E65E /* main.m */; };
 		247D18132404F7ED00B7E65E /* DigitalDismay.otf in Resources */ = {isa = PBXBuildFile; fileRef = 247D18112404F7ED00B7E65E /* DigitalDismay.otf */; };
 		247D18142404F7ED00B7E65E /* DS-Digital.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 247D18122404F7ED00B7E65E /* DS-Digital.ttf */; };
+		24F64F4A2408059B00B63225 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F64F492408059B00B63225 /* BaseViewController.m */; };
+		24F64F4D240805F500B63225 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F64F4C240805F500B63225 /* HomeViewController.m */; };
+		24F64F5424080C0500B63225 /* GwqUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F64F5324080C0500B63225 /* GwqUI.m */; };
 		A77772325117CEA4AE488053 /* Pods_TinyClock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FE0B3D988F00E45F08475E9 /* Pods_TinyClock.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,14 +24,20 @@
 		247D17F32404E7DA00B7E65E /* TinyClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		247D17F62404E7DA00B7E65E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		247D17F72404E7DA00B7E65E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		247D17FC2404E7DA00B7E65E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		247D17FD2404E7DA00B7E65E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		247D18022404E7E000B7E65E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		247D18052404E7E000B7E65E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		247D18072404E7E000B7E65E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		247D18082404E7E000B7E65E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		247D18112404F7ED00B7E65E /* DigitalDismay.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DigitalDismay.otf; sourceTree = "<group>"; };
 		247D18122404F7ED00B7E65E /* DS-Digital.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-Digital.ttf"; sourceTree = "<group>"; };
+		24F64F482408059B00B63225 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		24F64F492408059B00B63225 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		24F64F4B240805F500B63225 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		24F64F4C240805F500B63225 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		24F64F4F240807FE00B63225 /* TinyClock.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TinyClock.pch; sourceTree = "<group>"; };
+		24F64F502408085300B63225 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		24F64F5224080C0500B63225 /* GwqUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GwqUI.h; sourceTree = "<group>"; };
+		24F64F5324080C0500B63225 /* GwqUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GwqUI.m; sourceTree = "<group>"; };
 		92DB758E0059EBB5C0F91063 /* Pods-TinyClock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinyClock.release.xcconfig"; path = "Target Support Files/Pods-TinyClock/Pods-TinyClock.release.xcconfig"; sourceTree = "<group>"; };
 		B10AEBF59FD98DF3541D6946 /* Pods-TinyClock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinyClock.debug.xcconfig"; path = "Target Support Files/Pods-TinyClock/Pods-TinyClock.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,8 +87,7 @@
 		247D180F2404EE8000B7E65E /* feature */ = {
 			isa = PBXGroup;
 			children = (
-				247D17FC2404E7DA00B7E65E /* ViewController.h */,
-				247D17FD2404E7DA00B7E65E /* ViewController.m */,
+				24F64F472408057600B63225 /* home */,
 			);
 			path = feature;
 			sourceTree = "<group>";
@@ -88,12 +95,14 @@
 		247D18102404EE8000B7E65E /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				247D18022404E7E000B7E65E /* Assets.xcassets */,
 				247D18112404F7ED00B7E65E /* DigitalDismay.otf */,
 				247D18122404F7ED00B7E65E /* DS-Digital.ttf */,
-				247D18022404E7E000B7E65E /* Assets.xcassets */,
 				247D18042404E7E000B7E65E /* LaunchScreen.storyboard */,
 				247D18072404E7E000B7E65E /* Info.plist */,
 				247D18082404E7E000B7E65E /* main.m */,
+				24F64F4F240807FE00B63225 /* TinyClock.pch */,
+				24F64F502408085300B63225 /* Macros.h */,
 			);
 			path = resources;
 			sourceTree = "<group>";
@@ -101,8 +110,37 @@
 		247D18152404F81400B7E65E /* common */ = {
 			isa = PBXGroup;
 			children = (
+				24F64F5124080BC600B63225 /* GwqUI */,
+				24F64F4E240806A900B63225 /* base */,
 			);
 			path = common;
+			sourceTree = "<group>";
+		};
+		24F64F472408057600B63225 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				24F64F4B240805F500B63225 /* HomeViewController.h */,
+				24F64F4C240805F500B63225 /* HomeViewController.m */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		24F64F4E240806A900B63225 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				24F64F482408059B00B63225 /* BaseViewController.h */,
+				24F64F492408059B00B63225 /* BaseViewController.m */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		24F64F5124080BC600B63225 /* GwqUI */ = {
+			isa = PBXGroup;
+			children = (
+				24F64F5224080C0500B63225 /* GwqUI.h */,
+				24F64F5324080C0500B63225 /* GwqUI.m */,
+			);
+			path = GwqUI;
 			sourceTree = "<group>";
 		};
 		4831C0A15719F02160D4FE9E /* Frameworks */ = {
@@ -237,8 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				247D17FE2404E7DA00B7E65E /* ViewController.m in Sources */,
+				24F64F4A2408059B00B63225 /* BaseViewController.m in Sources */,
 				247D17F82404E7DA00B7E65E /* AppDelegate.m in Sources */,
+				24F64F5424080C0500B63225 /* GwqUI.m in Sources */,
+				24F64F4D240805F500B63225 /* HomeViewController.m in Sources */,
 				247D18092404E7E000B7E65E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,6 +413,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TinyClock/resources/TinyClock.pch";
 				INFOPLIST_FILE = TinyClock/resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -391,6 +432,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TinyClock/resources/TinyClock.pch";
 				INFOPLIST_FILE = TinyClock/resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
