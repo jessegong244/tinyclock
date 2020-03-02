@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface HomeViewController : BaseViewController
 
+@property(nonatomic,strong) UIColor *bgColor;
+@property(nonatomic,strong) UIImage *bgImg;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -16,6 +16,9 @@
 #define WEAKSELF        @weakify(self);
 #define STRONGSELF      @strongify(self);
 
+#define SCREEN_W        [UIScreen mainScreen].bounds.size.width
+#define SCREEN_H        [UIScreen mainScreen].bounds.size.height
+
 
 #define Scale375(x) (x*(kScreenWidth/375.0))
 

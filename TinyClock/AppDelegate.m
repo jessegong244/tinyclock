@@ -22,8 +22,6 @@
     
     HomeViewController *vc = [HomeViewController new];
     self.window.rootViewController = vc;
-
-//    [[UIApplication sharedApplication] setStatusBarHidden:NO];
     [self.window makeKeyAndVisible];
 
     return YES;
